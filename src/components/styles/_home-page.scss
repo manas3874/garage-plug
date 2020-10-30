@@ -1,0 +1,45 @@
+.home-page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 7fr 1fr 2fr;
+  &--banner {
+    background: url("../../images/man-repairing-car.jpg") center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &__heading {
+      text-align: center;
+      margin-bottom: 7rem;
+      font-size: 7rem;
+      color: rgb(122, 148, 235);
+    }
+  }
+  &--hero-content {
+    h4 {
+      text-align: center;
+      font-size: 2rem;
+      padding: 2rem 3rem;
+    }
+  }
+  &--action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__btn {
+      border: none;
+      outline: none;
+      background-color: rgb(122, 148, 235);
+      padding: 1.5rem 4rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: aliceblue;
+      &:hover {
+        transition: 200ms ease-in-out;
+        background-color: rgb(95, 128, 235);
+      }
+    }
+  }
+}

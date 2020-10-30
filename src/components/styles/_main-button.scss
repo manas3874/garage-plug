@@ -1,0 +1,15 @@
+.main-button {
+  border: none;
+  outline: none;
+  background-color: rgb(122, 148, 235);
+  padding: 1.5rem 4rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: aliceblue;
+  &:hover {
+    transition: 200ms ease-in-out;
+    background-color: rgb(95, 128, 235);
+  }
+}
