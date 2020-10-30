@@ -1,0 +1,12 @@
+.service-selector-page {
+  &--header {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+  &--services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
