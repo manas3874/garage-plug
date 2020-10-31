@@ -1,0 +1,42 @@
+.main-card {
+  height: 24rem;
+  width: 20rem;
+  // background: no-repeat center center/contain;
+  background-repeat: no-repeat !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 3rem;
+  &--checkbox {
+    visibility: hidden;
+    // background-color: red;
+    cursor: pointer;
+    &::after {
+      visibility: visible !important;
+      content: "";
+      height: 20rem;
+      width: 20rem;
+      // background-color: red;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    &:checked {
+      &::after {
+        background-color: rgba(199, 199, 199, 0.459);
+      }
+    }
+  }
+  &--details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 + h2 {
+      margin-left: 2rem;
+    }
+  }
+}

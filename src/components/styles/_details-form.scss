@@ -1,0 +1,72 @@
+.details-form {
+  > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2rem;
+      margin: 2rem 0;
+    }
+  }
+  &--contact {
+    display: flex;
+    label + label {
+      margin-left: 2rem;
+    }
+  }
+  &--payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+    input {
+      position: relative;
+      visibility: hidden;
+      &::after {
+        visibility: visible !important;
+        // content: "";
+        width: 10rem;
+        height: 4rem;
+        background-color: aliceblue;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: -4.7rem;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+    }
+    &__cash {
+      &::after {
+        content: "cash";
+      }
+    }
+    &__card {
+      &::after {
+        content: "card";
+      }
+    }
+    *.cash {
+      text-align: center;
+      font-size: 1.8rem;
+    }
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-button--wrapper {
+    margin-top: 3rem;
+  }
+  &--dropdown {
+    display: flex;
+  }
+}

@@ -1,0 +1,22 @@
+.cart-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > h3 {
+    padding: 3rem 0;
+    font-size: 2.5rem;
+  }
+  &--services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &--total {
+    display: flex;
+    h2 + h2 {
+      margin-left: 3rem;
+    }
+  }
+  &--btn {
+    margin-top: 3rem;
+  }
+}
