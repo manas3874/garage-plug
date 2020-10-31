@@ -1,0 +1,39 @@
+[
+    {
+        "carImages": [
+            "https://i.ibb.co/rw7rsG5/car-1.png",
+            "https://i.ibb.co/fn7hhHv/car-2.png",
+            "https://i.ibb.co/6rsGGn7/car-3.png",
+            "https://i.ibb.co/HY6VHPZ/car-4.png",
+            "https://i.ibb.co/Zz8MbQR/car-5.png",
+            "https://i.ibb.co/m5ZFGZy/car-6.png",
+            "https://i.ibb.co/n6gJWQ9/car-7.png"
+        ]
+    },
+    {
+        "serviceImages": [
+            "https://i.ibb.co/PNrJKvc/service-1.png",
+            "https://i.ibb.co/BPyGWzY/service-2.png",
+            "https://i.ibb.co/2F8b7tR/service-3.png",
+            "https://i.ibb.co/fYyRzm2/service-4.png",
+            "https://i.ibb.co/fd8GCm7/service-5.png",
+            "https://i.ibb.co/5RWBJtz/service-6.png",
+            "https://i.ibb.co/1LN1Sz7/service-7.png",
+            "https://i.ibb.co/4Jmw4fP/service-8.png",
+            "https://i.ibb.co/BgJX473/service-9.png"
+        ]
+    },
+    {
+        "servicePrices": [
+            2200,
+            12000,
+            4400,
+            8990,
+            3600,
+            7000,
+            2800,
+            1200,
+            3300
+        ]
+    }
+]

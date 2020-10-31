@@ -1,4 +1,7 @@
 .main-button {
+  &--wrapper {
+    text-align: center;
+  }
   border: none;
   outline: none;
   background-color: rgb(122, 148, 235);
