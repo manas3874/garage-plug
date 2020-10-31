@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import MainButton from "./MainButton";
+import NavBar from "./NavBar";
 class DetailsForm extends Component {
   state = { totalPrice: 0 };
   componentDidMount() {
@@ -116,6 +117,7 @@ class DetailsForm extends Component {
     // const defaultOption = options[0];
     return (
       <div className="details-form">
+        <NavBar />
         <form onClick={console.log(this.state.totalPrice)}>
           <label htmlFor="full-name">
             full-name <input type="text" name="full-name" required />

@@ -27,7 +27,8 @@
     }
     &:checked {
       &::after {
-        background-color: rgba(199, 199, 199, 0.459);
+        background-color: rgba(54, 46, 46, 0.459);
+        border-radius: 2rem;
       }
     }
   }
