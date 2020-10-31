@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import MainButton from "./MainButton";
 class HomePage extends Component {
   render() {

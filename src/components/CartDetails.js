@@ -24,8 +24,13 @@ class CartDetails extends Component {
         {
           <div className="cart-details--services">
             {this.state.services &&
-              this.state.services.map((service) => {
-                return <MainCard cardTitle="one" name={service} />;
+              this.state.services.map((service, index) => {
+                return (
+                  <MainCard
+                    cardTitle={this.state.serviceTitle[index]}
+                    name={service}
+                  />
+                );
               })}
           </div>
         }

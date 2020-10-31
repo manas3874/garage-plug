@@ -7,6 +7,7 @@ class CarSizeSelector extends Component {
     services: this.props.location.query.services,
     carSize: "1",
     prices: this.props.location.query.prices,
+    serviceTitle: this.props.location.query.serviceTitle,
   };
 
   selectionHandler = (ev) => {

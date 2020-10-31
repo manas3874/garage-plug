@@ -5,7 +5,7 @@ class MainCard extends Component {
   state = { serviceImages: [], servicePrices: [] };
   componentDidMount() {
     console.log(this.state);
-    
+
     if (!this.state.serviceImages.length) {
       // this.serviceImageSetter();
       axios
@@ -37,7 +37,8 @@ class MainCard extends Component {
           type="checkbox"
           className="main-card--checkbox"
           name={this.props.name}
-          data-url="https://i.ibb.co/n6gJWQ9/car-7.png"
+          // data-url="https://i.ibb.co/n6gJWQ9/car-7.png"
+          id={this.props.cardTitle}
         />
         <div className="main-card--details">
           <h2>{this.props.cardTitle}</h2>

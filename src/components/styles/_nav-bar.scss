@@ -1,14 +1,20 @@
 .nav-bar {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   align-items: center;
   font-size: 1.6rem;
-  background-color: beige;
+  background-color: rgb(245, 245, 187);
   padding: 2rem;
   &--left {
     display: flex;
-    p + p {
-      margin-left: 1rem;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: darkblue;
+    }
+    a + a {
+      margin-left: 3rem;
     }
   }
   &--logo {

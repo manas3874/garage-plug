@@ -3,18 +3,23 @@ import NavBar from "./NavBar";
 import MainCard from "./MainCard";
 import MainButton from "./MainButton";
 class ServiceSelector extends Component {
-  state = { services: [], allPrices: [], prices: [] };
+  state = { services: [], serviceTitle: [], allPrices: [], prices: [] };
   selectionHandler = (ev) => {
-    console.log(ev.target.name + " is " + ev.target.checked);
+    console.log(ev.target.id + " is " + ev.target.checked);
     let arr = this.state.services;
     ev.target.checked ? arr.push(ev.target.name) : arr.pop(ev.target.name);
     // this.setState({ services: [1, 2, 3] });
     this.setState({ services: arr });
-    console.log(this.state.services);
+
     let arr2 = this.state.prices;
     ev.target.checked
       ? arr2.push(this.state.allPrices[ev.target.name])
       : arr.pop(this.state.allPrices[ev.target.name]);
+    let arr3 = this.state.serviceTitle;
+    ev.target.checked ? arr3.push(ev.target.id) : arr3.pop(ev.target.id);
+    // this.setState({ services: [1, 2, 3] });
+    this.setState({ serviceTitle: arr3 });
+    console.log(this.state);
   };
 
   statePricesSetter = (prices) => {
