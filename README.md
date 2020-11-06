@@ -1,6 +1,7 @@
 # Task for Garage-plug
 
-Hello viewer, This is a simple React.js app providing a car-service-on-request platform with a sleek UI. [ https://modest-leavitt-ecceef.netlify.app/ ]
+Hello viewer, This is a simple React.js app providing a car-service-on-request platform with a sleek UI. 
+[ https://modest-leavitt-ecceef.netlify.app/ ]
 
 Technologies and packages used are
 
